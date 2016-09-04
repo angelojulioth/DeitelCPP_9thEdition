@@ -1,0 +1,20 @@
+************************************************************
+* PLEASE ENTER YOUR INFO:                                  *
+************************************************************
+ Enter your name: Ian
+ Enter your lastname: Stefano
+ Enter your birth month: 09
+ Enter your birth day: 05
+ Enter your birth year: 1995
+ Enter current year: 2016
+************************************************************
+* RESULTS                                                  *
+* PLEASE REMEMBER --> TARGET HEART RATE IS                 *
+*                     50% - 85% OF MAXIMUM                 *
+*                     HEART RATE.                          *
+************************************************************
+  Name:               Ian
+  Last Name:          Stefano
+  Age:                21
+  Maximum heart rate: 199 Beats Per Minute!
+  Target heart rate:  99 - 169 Beats Per Minute!

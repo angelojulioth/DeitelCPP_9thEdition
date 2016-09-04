@@ -1,0 +1,52 @@
+************************************************************
+* Please enter the following info correctly!               *
+* All the fields are required to process your              *
+* health record.                                           *
+************************************************************
+  Enter your first name:  Ian
+  Enter your last name:   Stephano
+  Enter your gender:      Male
+  Enter your birth month: 09
+  Enter your birth day:   05
+  Enter your birth year:  1995
+  Enter current year:     2016
+  Please select your unit system: 
+                                 1) Metric
+                                 2) Imperial
+  To select write 1 or 2: 1
+  Enter your height(centimeters):  172
+  Enter your weight(kilograms):    65
+************************************************************
+* Health Profile:                                          *
+************************************************************
+  CURRENT UNIT SYSTEM BEING USED TO DISPLAY DATA: 
+  - Metric -
+  Name: Ian
+  LastName: Stephano
+  Gender: Male
+  Birth Date [mm/dd/yy]: 9/5/1995
+  Height: 172 centimeters
+  Weight: 65 kilograms
+  Age: 21 years
+  BMI(Body Mass Index): 21
+************************************************************
+* Body Mass Index char and info.                           *
+*----------------------------------------------------------*
+* Classification of BMI:                                   *
+*     BMI below         < 18.5  ->  Underweight            *
+*     BMI between 18.5  to  25  ->  Normal Weight          *
+*     BMI between   25  to  30  ->  Overweight             *
+*     BMI between   30  to  40  ->  Obesity                *
+*     BMI above         >   40  ->  Morbid Obesity         *
+*----------------------------------------------------------*
+  Ian Stephano's BMI: 21
+  RESULT  ->  NORMAL WEIGHT
+************************************************************
+  Maximum heart rate: 199 beats per minute
+  Min - Max Target heart rate:
+                   min -> 50% of Maximum heart rate
+                   max -> 85% of Maximum heart rate
+  Min - Max Target heart rate:
+                   min -> 99  beats per minute
+                   max -> 169 beats per minute
+************************************************************

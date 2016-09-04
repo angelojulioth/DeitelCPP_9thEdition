@@ -1,0 +1,5 @@
+******************************************
+* WARNING:                               *
+* Salary can't be set to negative value  *
+* Setting to 0 as default                *
+******************************************

@@ -1,0 +1,62 @@
+************************************************************
+* A continuación se crearán tres instancias de clase:      *
+* Employee.                                                *
+* El prototipo del constructor es:                         *
+*         Employee employee1(nombre, apellido, salario);   *
+* Las instancias serán las siguientes:                     *
+*     Employee employee1("Dan", "Mendez", 1250);           *
+*     Employee employee2("Alex", "Tolstoy", 950);          *
+*     Employee employee3("Karen", "Moore", -456);          *
+* A la tercera instancia se le pasa un valor negativo como *
+* salario, por lo tanto aparecerá un error al momento que  *
+* la función setter llamada en el constructor haga la      *
+* respectiva validación del valor.                         *
+************************************************************
+------------------------------------------------------------
+## CONSTRUCTOR INITIALIZATION ##
+------------------------------------------------------------
+@Initialize: data member name initialized!
+@Initialize: data member lastName initialized!
+@Initialize: data member salary initialized!
+------------------------------------------------------------
+## CONSTRUCTOR INITIALIZATION ##
+------------------------------------------------------------
+@Initialize: data member name initialized!
+@Initialize: data member lastName initialized!
+@Initialize: data member salary initialized!
+------------------------------------------------------------
+## CONSTRUCTOR INITIALIZATION ##
+------------------------------------------------------------
+@Initialize: data member name initialized!
+@Initialize: data member lastName initialized!
+******************************************
+* WARNING:                               *
+* Salary can't be set to negative value  *
+* Setting to 0 as default                *
+******************************************
+@Initialize: data member salary initialized!
+------------------------------------------------------------
+ Datos de Employee, instancia employee1:
+ Nombre: Dan
+ Apellido: Mendez
+ Sueldo Mensual: 1250
+ Sueldo Anual: 15000
+ Bono de 10% anual: 1500
+ Sueldo Anual + 10 porciento de bono: 16500
+
+ Datos de Employee, instancia employee2:
+ Nombre: Alex
+ Apellido: Tolstoy
+ Sueldo Mensual: 950
+ Sueldo Anual: 11400
+ Bono de 10% anual: 1140
+ Sueldo Anual + 10 porciento de bono: 12540
+
+ Datos de Employee, instancia employee3:
+ Nombre: Karen
+ Apellido: Moore
+ Sueldo Mensual: 0
+ Sueldo Anual: 0
+ Bono de 10% anual: 0
+ Sueldo Anual + 10 porciento de bono: 0
+------------------------------------------------------------

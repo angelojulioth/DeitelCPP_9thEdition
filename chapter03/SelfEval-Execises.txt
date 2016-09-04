@@ -1,0 +1,169 @@
+3.13
+-------------------------------------------------------------------------------
+INVOICE CLASS (Clase Factura)
+Crea una clase Invoice que una ferreteria(hardware store) quizá usaría para
+representar una factura para un item vendido en la tienda. La clase Invoice
+debería incluir cuatro datos miembros con las siguientes características:
+* Un número de parte(tipo string)
+* Uno que guarde una descripción del producto(tipo string)
+* Uno que guarde la cantidad del elemento que se está comprando(tipo int)
+* Uno que guarde el precio del elemento(tipo int)
+[NOTA: En los siguientes capítos se usarán números que contengan puntos
+decimales -también llamados valores de punto flotante- con el fin de
+representar cantidades de dólar con dichos valores].
+
+Tu constructor debe de tener un constructor que inicialize los cuatro datos
+miembro. Un constructor que recibe multiples argumentos debe de ser definido
+de la siguiente manera:
+  NombreDeClase(tipo1 parámetro1, tipo2 parámetro2)
+
+Provee una función get y una función set para cada dato miembro. Adicionalmente
+escribe una función llamada getInvoiceAmount que calcule la cantidad
+facturada(osea, se multiplica la cantidad por el precio del elemento) luego
+retorna ese valor como un int. Si la cantidad no es positiva, debe establecerse
+a 0. Escribe un programa de prueba que demuestre las capacidades de la clase
+Invoice.
+
+R:
+  Programa creado con éxito, fue compilado y ejecutado, no contiene errores.
+  Código fuente guardado en ./Exercises/03_13/
+  Salida de prueba del programa guardada en testOutput.txt
+  Errores/Advertencias de ejecución guardadas en testOutputErrors.txt
+-------------------------------------------------------------------------------
+
+
+3.14
+-------------------------------------------------------------------------------
+EMPLOYEE CLASS
+Crea una clase llamada Employee que incluya tres piezas de información como
+datos miembros:
+* Nombre(tipo string)
+* Apellido(tipo string)
+* Salario mensual(tipo int)
+Tu clase debe tener un constructor que inicialice los tres datos miembros.
+Provee una función set y una get para cada dato miembro, si el salario mensual
+pasado por argumento al momento de crear una instancia de la clase es un
+número negativo, establece el valor del salario mensual a 0. Escribe un
+programa de prueba que demuestre las capacidades de la clase Employee.
+Crea dos objetos Employee e imprime el salario anual de cada objeto. Luego dale
+a cada empleado un aumento del 10% e imprime nuevamente el salario anual con
+dicho 10% extra.
+
+R:
+  Programa creado con éxito, fue compilado y ejecutado, no contiene errores.
+  Código fuente guardado en ./Exercises/03_14/
+  Salida de prueba del programa guardada en testOutput.txt
+  Errores/Advertencias de ejecución guardadas en testOutputErrors.txt
+-------------------------------------------------------------------------------
+
+
+3.15
+-------------------------------------------------------------------------------
+DATE CLASS
+Crea una clase llamada Date que incluya tres piezas de información como datos
+miembro:
+- Month(tipo int)
+- Day(tipo int)
+- Year(tipo int)
+La clase debería de tener un constructor con tres parámetros que use los
+parámetros para inicializar los tres datos miembro. Para el propósito de este
+ejercicio, se asume que el valor que se provee para day y month sea
+correcto, pero hay que asegurarse que el valor de month esté en un rango de
+1-12, sino es así, se establece month a 1. Provee una función set y una función
+get a cada dato miembro. Provee una función miembro displayDate que imprima en
+pantalla el mes, día y año, separados por barras diagonales "/". Escribe un
+programa de prueba que demuestre las capacidades de la clase Date.
+
+R:
+  Programa creado con éxito, fue compilado y ejecutado, no contiene errores.
+  Código fuente guardado en ./Exercises/03_14/
+  Salida de prueba del programa guardada en testOutput.txt
+  Errores/Advertencias de ejecución guardadas en testOutputErrors.txt
+-------------------------------------------------------------------------------
+
+
+MAKING A DIFFERENCE
+3.16
+-------------------------------------------------------------------------------
+TARGET HEART RATE CALCULATOR.
+Mientras te ejercitas puedes usar un monitor de ritmo cardiaco, esto con el fin
+de saber a que ritmo va nuestro corazón y ver si se mantiene dentro de un
+rango adecuado, según lo sugerido por tu(s) entrenador(es) y doctor(es). De
+acuerdo a la American Heart Association (AHA), la fórmula para calcular tu
+ritmo cardiaco máximo en latidos por minuto es 220 menos tu edad en años.
+Tu objetivo de ritmo cardiaco es uno que se encuentre en un rango de 50-85% de
+tu ritmo cardiaco máximo. [Nota: Estás fórmulas son estimados proveidos por
+la AHA. El ritmo cardiaco máximo y objetivo puede variar según salud, físico, y
+género del individuo. Siempre consulte con un médico o un profesional de la
+salud calificado antes de empezar o modificar un programa de ejercicio.]
+Crea una clase llamada HeartRates. Los atributos de la clase deben incluir:
+- Primer nombre de la persona.
+- Apellido.
+- Año de nacimiento(Consistiendo de atributos separados para mes, día y año).
+Tu clase debe de tener un constructor que reciba estos datos como parámetros.
+A cada atributo provee una función get y set. La clase también debería incluir
+una función getAge, que calcule y retorne la edad de la persona en años, una
+función getMaximumHeartRate que calcule y retorne el máximo ritmo cardiaco de
+la persona, y una función getTargetHeartRate que calcule el ritmo cardiaco
+objetivo/ideal de la persona. Puesto a que en este capítulo aún no se ha
+enseñado a obtener la fecha actual de la computadora, la función getAge debe
+sugerir al usuario que ingrese el actual mes, día y año, antes de calcular la
+edad de la persona.
+Escribe una aplicación que pida la información a la persona, instancie un
+objeto HeartRates e imprima la información de ese objeto, incluyendo el primer
+nombre, apellido y fecha de nacimiento de la persona-luego calcula e imprime
+la edad de la persona en años, máximo ritmo cardiaco y ritmo cardiaco
+objetivo/ideal.
+
+R:
+  Programa creado con éxito, fue compilado y ejecutado, no contiene errores.
+  Código fuente guardado en ./Exercises/03_16/
+  Salida de prueba del programa guardada en testOutput.txt
+  Errores/Advertencias de ejecución guardadas en testOutputErrors.txt
+-------------------------------------------------------------------------------
+
+
+MAKING A DIFFERENCE
+3.17
+-------------------------------------------------------------------------------
+COMPUTERIZATION OF HEALTH RECORDS.
+
+Un problema del sector de salud que ha sido noticia últimamente es la
+informatización(computerization) de records(archivos) de salud. Esta
+posibilidad está siendo cuidadosamente abordada ya que esta es información
+delicada y existen preocupaciones de seguridad, entre otras.[Se abordarán
+esta preocupaciones en capítulos próximos.]
+La informatización de los archivos de salud podría hacer más fácil para los
+pacientes compartir sus perfiles de salud e historial clínico entre sus
+respectivos profesionales de la salud. Esto podría mejorar la calidad del
+sistema de salud, ayudaría a evitar conflictos de medicamente y prescripciones
+erróneas de medicinas, reducir los costos y en emergencias, podría salvar
+vidas.
+
+En este ejercicio se diseñará una clase HealthProfile "sencilla" para una
+persona. Los atributos de la clase deberían incluir:
+- Primer nombre.
+- Apellido.
+- Género.
+- Fecha de nacimiento(Separada en tres atributos de mes, día, año).
+- Altura(en pulgadas).
+- Peso(en libras).
+Tu clase debería de tener un constructor que reciba estos datos. Para cada
+atributo provee funciones get y set.
+La clase también debería incluir funciones que calculen y retornen la edad del
+usuario en años, el máximo ritmo cardíaco, el ritmo cardiaco objetivo/ideal y
+el BMI(Body Mass Index) o índice de masa corporal.
+
+Escribe un programa que haga una petición de esta información al usuario, que
+instancie un objeto de la clase HealthProfile para la persona e imprima la
+información de dicho objeto - incluyendo el primer nombre de la persona,
+apellido, género, fecha de nacimiento, altura y peso - luego calcula e imprime
+la edad de la persona en años, el índice de masa corporal(BMI), el máximo
+ritmo cardíaco, el ritmo cardíaco objeto/ideal. También debería imprimir el
+cartel de los "valores BMI" del ejercicio 2.30. Usa la misma técnica del
+ejercicio 3.16 para calcular la edad de la persona.
+R:
+  Programa creado con éxito, fue compilado y ejecutado, no contiene errores.
+  Código fuente guardado en ./Exercises/03_16/
+  Salida de prueba del programa guardada en testOutput.txt
+-------------------------------------------------------------------------------

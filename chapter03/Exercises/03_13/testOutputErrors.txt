@@ -1,0 +1,6 @@
+************************************
+* WARNING --> for quantity set     *
+- In object: Perfume -
+* Negative value provided.         *
+* Setting to 0 as default.         *
+************************************

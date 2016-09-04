@@ -1,0 +1,4 @@
+No tiene que haber errores en este programa, puesto a que no se hicieron
+validaciones de datos para ahorrar tiempo, osea, no hay ninguna sentencia cerr
+en toda la ejecución del programa, no se imprime ningún error al flujo de
+error estándar.

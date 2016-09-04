@@ -1,0 +1,47 @@
+--------------------------------------------------------------
+ Se crean dos objetos de clase Invoice.
+ ej:
+invoiceObjecto("id", "descripción", cantidad, precio)
+ Sus argumetos serán:
+     invoice1("001", "Desodorante", 20, 5)
+     invoice2("002", "Perfume", -3, 45)
+ Como se puede apreciar, al segundo se le pasa un argumento
+ erroneo, un valor negativo. La validación mostrará el error.
+--------------------------------------------------------------
+## CONSTRUCTOR INITIALIZATION OF DATA MEMBERS STARTED ##
+    @Initialization: item id set completed!
+    @Initialization: item description set completed!
+    @Initialization: item quantity set completed!
+    @Initialization: item price set completed!
+## CONSTRUCTOR INITIALIZATION OF DATA MEMBERS STARTED ##
+    @Initialization: item id set completed!
+    @Initialization: item description set completed!
+************************************
+* WARNING --> for quantity set     *
+- In object: Perfume -
+* Negative value provided.         *
+* Setting to 0 as default.         *
+************************************
+    @Initialization: item quantity set completed!
+    @Initialization: item price set completed!
+--------------------------------------------------------------
+ CUENTA invoice1:
+ ID: 001
+ Descripción: Desodorante
+ Cantidad: 20
+ Precio: 5
+ Total: 100
+
+ CUENTA invoice2:
+ ID: 002
+ Descripción: Perfume
+ Cantidad: 0
+ Precio: 45
+ *******************************************************
+ ADVERTENCIA! el valor facturado es igual a 0.
+ En objeto: Perfume
+ Verifica que la cantidad o precio tengan un valor > 0.
+ *******************************************************
+ Total: 0
+
+--------------------------------------------------------------

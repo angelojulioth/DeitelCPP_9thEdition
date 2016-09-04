@@ -1,0 +1,10 @@
+Investigar:
+    Böhm and Jacopini. <- Programación estructurada.
+    Integer overflow: https://www.securecoding.cert.org/confluence/display/cplusplus/VOID+INT32-CPP.+Ensure+that+operations+on+signed+integers+do+not+result+in+overflow
+    Integer division truncation.
+    Division by zero.
+
+Sinónimos:
+    Estructuras de control/Sentencias de control, se le llaman sentencias de control de acuerdo al documento estándar de cpp.
+    Valores centinelas, Valor señal, dummy value, flag value.
+    Repetición controlada por centinela/Repetición indefinida.

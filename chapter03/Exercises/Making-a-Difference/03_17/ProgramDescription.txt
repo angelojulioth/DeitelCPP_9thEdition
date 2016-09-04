@@ -1,0 +1,39 @@
+MAKING A DIFFERENCE
+3.17
+------------------------------------------------------------------------------
+COMPUTERIZATION OF HEALTH RECORDS.
+
+Un problema del sector de salud que ha sido noticia últimamente es la
+informatización(computerization) de records(archivos) de salud. Esta
+posibilidad está siendo cuidadosamente abordada ya que esta es información
+delicada y existen preocupaciones de seguridad, entre otras.[Se abordarán
+esta preocupaciones en capítulos próximos.]
+La informatización de los archivos de salud podría hacer más fácil para los
+pacientes compartir sus perfiles de salud e historial clínico entre sus
+respectivos profesionales de la salud. Esto podría mejorar la calidad del
+sistema de salud, ayudaría a evitar conflictos de medicamente y prescripciones
+erróneas de medicinas, reducir los costos y en emergencias, podría salvar
+vidas.
+
+En este ejercicio se diseñará una clase HealthProfile "sencilla" para una
+persona. Los atributos de la clase deberían incluir:
+- Primer nombre.
+- Apellido.
+- Género.
+- Fecha de nacimiento(Separada en tres atributos de mes, día, año).
+- Altura(en pulgadas).
+- Peso(en libras).
+Tu clase debería de tener un constructor que reciba estos datos. Para cada
+atributo provee funciones get y set.
+La clase también debería incluir funciones que calculen y retornen la edad del
+usuario en años, el máximo ritmo cardíaco, el ritmo cardiaco objetivo/ideal y
+el BMI(Body Mass Index) o índice de masa corporal.
+
+Escribe un programa que haga una petición de esta información al usuario, que
+instancie un objeto de la clase HealthProfile para la persona e imprima la
+información de dicho objeto - incluyendo el primer nombre de la persona,
+apellido, género, fecha de nacimiento, altura y peso - luego calcula e imprime
+la edad de la persona en años, el índice de masa corporal(BMI), el máximo
+ritmo cardíaco, el ritmo cardíaco objeto/ideal. También debería imprimir el
+cartel de los "valores BMI" del ejercicio 2.30. Usa la misma técnica del
+ejercicio 3.16 para calcular la edad de la persona.

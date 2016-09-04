@@ -1,0 +1,40 @@
+------------------------------------------------------------
+ SE CREAN DOS OBJETOS DE CLASE Date.
+ El prototipo del constructor es:
+         Date date1(mes, día, año);
+ Al crear un objeto se pasan los argumentos como tipo int.
+ Los dos objetos que se crearán son estos:
+         Date date1(9, 5, 1995);
+         Date date2(13, 3, 2008);
+
+ Solamente se hace validación del valor del mes.
+ Al inicializar el segundo objeto, este tiene un valor
+ incorrecto para el mes, entonces se establece al valor por
+ defecto 1, osea, 'Enero'.
+ Al final se imprimirán los valores individuales de los
+ datos miembros y también se usará una función miembro para
+ imprimir la fecha en formato mm/dd/yy
+------------------------------------------------------------
+
+*******************************************************
+* WARNING:                                            *
+* Month can't be set to value greater than 12!        *
+* Setting month to 1 as a default value.              *
+*******************************************************
+------------------------------------------------------------
+ OBJETOS DE CLASE Date:
+
+ Clase Date --> instancia date1
+ Mes: 9
+ Día: 5
+ Año: 1995
+ Formato mm/dd/yy: 9/5/1995
+
+
+ Clase Date --> instancia date2
+ Mes: 1
+ Día: 3
+ Año: 2008
+ Formato mm/dd/yy: 1/3/2008
+
+------------------------------------------------------------

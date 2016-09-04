@@ -1,0 +1,33 @@
+MAKING A DIFFERENCE
+3.16
+-------------------------------------------------------------------------------
+TARGET HEART RATE CALCULATOR.
+Mientras te ejercitas puedes usar un monitor de ritmo cardiaco, esto con el fin
+de saber a que ritmo va nuestro corazón y ver si se mantiene dentro de un
+rango adecuado, según lo sugerido por tu(s) entrenador(es) y doctor(es). De
+acuerdo a la American Heart Association (AHA), la fórmula para calcular tu
+ritmo cardiaco máximo en latidos por minuto es 220 menos tu edad en años.
+Tu objetivo de ritmo cardiaco es uno que se encuentre en un rango de 50-85% de
+tu ritmo cardiaco máximo. [Nota: Estás fórmulas son estimados proveidos por
+la AHA. El ritmo cardiaco máximo y objetivo puede variar según salud, físico,
+y género del individuo. Siempre consulte con un médico o un profesional de la
+salud calificado antes de empezar o modificar un programa de ejercicio.]
+Crea una clase llamada HeartRates. Los atributos de la clase deben incluir:
+- Primer nombre de la persona.
+- Apellido.
+- Año de nacimiento(Consistiendo de atributos separados para mes, día y año).
+Tu clase debe de tener un constructor que reciba estos datos como parámetros.
+A cada atributo provee una función get y set. La clase también debería incluir
+una función getAge, que calcule y retorne la edad de la persona en años, una
+función getMaximumHeartRate que calcule y retorne el máximo ritmo cardiaco de
+la persona, y una función getTargetHeartRate que calcule el ritmo cardiaco
+objetivo/ideal de la persona. Puesto a que en este capítulo aún no se ha
+enseñado a obtener la fecha actual de la computadora, la función getAge debe
+sugerir al usuario que ingrese el actual mes, día y año, antes de calcular la
+edad de la persona.
+Escribe una aplicación que pida la información a la persona, instancie un
+objeto HeartRates e imprima la información de ese objeto, incluyendo el primer
+nombre, apellido y fecha de nacimiento de la persona-luego calcula e imprime
+la edad de la persona en años, máximo ritmo cardiaco y ritmo cardiaco
+objetivo/ideal.
+-------------------------------------------------------------------------------
